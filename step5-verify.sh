@@ -1,0 +1,1 @@
+(( $(docker ps -a | grep WP_Staging_Random | grep Exited 2>/dev/null | wc -l) >= 1 )) && echo \"done\"
