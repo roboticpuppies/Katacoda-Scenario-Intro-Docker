@@ -1,4 +1,4 @@
-## Step 1 : Deploy Docker Container Pertamamu
+## Deploy Docker Container Pertamamu
 
 Untuk memulai menggunakan Docker pastinya adalah dengan membuat container pertamamu. Seperti yang kita tahu bahwa Docker akan membuat sebuah container berdasarkan sebuah image.
 
