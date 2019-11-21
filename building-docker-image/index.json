@@ -2,7 +2,7 @@
   "title": "Building Docker Image",
   "description": "Transform our static web application to a Docker Image",
   "difficulty": "Beginner",
-  "time": "2 hours",
+  "time": "10-20 minutes",
   "details": {
     "steps": [
       {
@@ -23,6 +23,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "assets/index.php",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
