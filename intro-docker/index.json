@@ -31,7 +31,8 @@
       },
       {
         "title": "Step 6",
-        "text": "step6.md"
+        "text": "step6.md",
+        "verify": "verify/step6-verify.sh"
       }
     ],
     "intro": {
