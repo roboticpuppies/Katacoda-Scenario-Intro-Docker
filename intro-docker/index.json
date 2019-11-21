@@ -8,7 +8,7 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "verify": "step1-verify.sh"
+        "verify": "verify/step1-verify.sh"
       },
       {
         "title": "Step 2",
@@ -17,17 +17,17 @@
       {
         "title": "Step 3",
         "text": "step3.md",
-        "verify": "step3-verify.sh"
+        "verify": "verify/step3-verify.sh"
       },
       {
         "title": "Step 4",
         "text": "step4.md",
-        "verify": "step4-verify.sh"
+        "verify": "verify/step4-verify.sh"
       },
       {
         "title": "Step 5",
         "text": "step5.md",
-        "verify": "step5-verify.sh"
+        "verify": "verify/step5-verify.sh"
       },
       {
         "title": "Step 6",
