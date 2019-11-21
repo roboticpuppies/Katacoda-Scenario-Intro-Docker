@@ -14,4 +14,4 @@ Sehingga dia ingin membuat container bernama `WP_Staging` berdasarkan image `Wor
 
 `docker run -d --name WP_Staging -p 80:80 wordpress:latest`{{execute}}
 
-Secara default, port di Docker akan dibinding ke IP 0.0.0.0. Artinya port tersebut bisa diakses melalui IP apa saja yang ada di host Dockernya (Listen to all address).
+Command diatas artinya adalah port 80 dari Docker Host diarahkan (mirip port forwarding) ke port 80 yang ada di dalam container `WP_Staging` tersebut. Docker Host adalah mesin tempat Docker diinstall. Jika kita menginstall Docker di laptop, maka yang disebut Docker Host adalah laptop tersebut.

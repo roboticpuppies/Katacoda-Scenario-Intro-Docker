@@ -8,7 +8,7 @@ Akhirnya Ryza tau bahwa hanya dengan menggunakan option `-p 80` dia bisa mengeks
 
 `docker run -d --name WP_Staging_Random -p 80 wordpress:latest`{{execute}}
 
-Dia berhasil mengekspose port containernya, namun tidak tau port berapa yang bisa dia akses (karena random). Untungnya dia bisa melihat portnya menggunakan command
+Dia berhasil mengekspose port containernya, namun tidak tau port berapa yang bisa dia akses (karena random). Untuk melihat portnya, menggunakan command
 
 `docker port WP_Staging_Random`{{execute}}
 
