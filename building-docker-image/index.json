@@ -1,6 +1,6 @@
 {
-  "title": "Advance Docker Use Case",
-  "description": "Use advanced Docker features",
+  "title": "Building Docker Image",
+  "description": "Transform our static web application to a Docker Image",
   "difficulty": "Beginner",
   "time": "2 hours",
   "details": {
@@ -26,7 +26,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal-split"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu"
