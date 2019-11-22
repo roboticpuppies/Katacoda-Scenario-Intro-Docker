@@ -25,6 +25,12 @@
       "text": "finish.md"
     },
     "assets": {
+      "client": [
+        {
+          "file": "assets/index.php",
+          "target": "~/"
+        }
+      ],
       "host01": [
         {
           "file": "assets/index.php",
