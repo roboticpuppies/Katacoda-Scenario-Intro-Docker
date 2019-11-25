@@ -8,3 +8,5 @@ Jalankan command berikut untuk mem-build Docker imagenya dan kita beri tag `v1` 
 ```
 docker build . -t hello-php:v1
 ```{{execute}}
+
+Apabila proses build selesai, maka image tersebut akan muncul jika kita jalankan command `docker images`{{execute}}
