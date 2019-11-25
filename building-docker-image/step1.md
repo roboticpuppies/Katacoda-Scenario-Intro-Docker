@@ -8,7 +8,7 @@ Pada scenario ini kita sudah mempunyai file PHP sederhana. Kita ingin membuat Do
 
 Pada scenario ini Dockerfile sudah dibuat, namun masih kosong. Pertama kita harus menentukan base image nya terlebih dahulu menggunakan command `FROM`. Karena kita membutuhkan PHP, gunakan base image PHP versi 7.2 :
 
-<pre class="file" data-filename="Dockerfile" data-target="replace">
+<pre class="file" data-filename="Dockerfile">
 FROM php:7.2-apache
 COPY index.php /var/www/html
 </pre>
