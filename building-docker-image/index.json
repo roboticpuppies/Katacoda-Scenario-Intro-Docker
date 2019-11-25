@@ -28,7 +28,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [
+      "host01": [
         {"file": "index.php","target": "/root"},
         {"file": "Dockerfile","target": "/root"}
       ]

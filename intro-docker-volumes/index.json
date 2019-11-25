@@ -19,10 +19,17 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "index.php","target": "/root/html/"},
+        {"file": "upload.php","target": "/root/html/"}
+      ]
     }
   },
   "environment": {
