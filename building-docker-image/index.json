@@ -29,8 +29,8 @@
     },
     "assets": {
       "client": [
-        {"file": "index.php","target": "/home/scrapbook/"},
-        {"file": "Dockerfile","target": "/home/scrapbook/"}
+        {"file": "index.php","target": "/root"},
+        {"file": "Dockerfile","target": "/root"}
       ]
     }
   },
