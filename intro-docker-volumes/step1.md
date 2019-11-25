@@ -29,4 +29,4 @@ cp upload.php <Mountpoint>
 ```
 
 Kemudian buka hasilnya menggunakan URL berikut :
-http://[[CLIENT_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
