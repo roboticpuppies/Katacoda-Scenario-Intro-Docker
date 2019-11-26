@@ -1,6 +1,6 @@
 ## Create Second Container
 
-Jika kita membuat Docker Image maka kita menggunakan Dockerfile. Sedangkan jika kita akan menggunakan Docker Compose, maka file konfigurasinya dinamakan `docker-compose.yml`. File tersebut berisi instruksi apa saja yang harus dilakukan oleh Docker Compose. Misalnya membuat beberapa container, mengatur networknya, membuat volume, dan lainnya. Format filenya menggunakan YAML. Contohnya :
+Jika kita membuat Docker Image maka kita menggunakan Dockerfile. Sedangkan jika kita akan menggunakan Docker Compose, maka file konfigurasinya dinamakan `docker-compose.yml`. File tersebut berisi instruksi apa saja yang harus dilakukan oleh Docker Compose. Misalnya membuat beberapa container, mengatur networknya, membuat volume, dan lainnya. Format filenya menggunakan YAML. Contoh penulisannya :
 
 ```
 nama_container:
@@ -20,7 +20,7 @@ Pada bagian `ports` kita mendefinisikan port yang diekspose, sama halnya dengan 
 
 Kemudian pada bagian `environment` kita mendefinisikan beberapa variable yang digunakan untuk membuat sebuah database, mendefinisikan user databasenya, dan memberikan password pada user tersebut.
 
-Terakhir pada bagian `volumes`, kita membuat Docker Volume bernama `db` yang di-attach ke dalam container dalam directory `/var/lib/mysql`. Hal ini dilakukan karena file-file database pastinya dinamis, dan kita ingin agar data tersebut masih tetap ada ketika container dihapus atau rusak.
+Terakhir pada bagian `volumes`, kita memerintahkan volume bernama `db` di-attach ke dalam container dalam directory `/var/lib/mysql`. Hal ini dilakukan karena file-file database pastinya dinamis, dan kita ingin agar data tersebut masih tetap ada ketika container dihapus atau rusak.
 
 <pre class="file" data-filename="docker-compose.yml">
 version: '3.1'

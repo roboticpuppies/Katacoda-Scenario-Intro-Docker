@@ -5,7 +5,7 @@ Kemudian definisikan port yang diekspose ada bagian `ports`.
 
 Pada bagian `environment` kita mendefinisikan beberapa variable yang diperlukan oleh container Wordpress, yaitu informasi database yang akan digunakan oleh Wordpressnya. Variable ini menyesuaikan variable yang kita gunakan ketika membuat container database sebelumnya.
 
-Terakhir buat volume bernama `wordpress` yang di-attach ke dalam container dalam directory `/var/www/html`. Hal ini dilakukan karena file-file Wordpress pastinya dinamis, dan kita ingin agar data tersebut masih tetap ada ketika container dihapus atau rusak.
+Terakhir kita memerintahkan volume bernama `wordpress` di-attach ke dalam container dalam directory `/var/www/html`. Hal ini dilakukan karena file-file Wordpress pastinya dinamis.
 
 <pre class="file" data-filename="docker-compose.yml">
 
@@ -20,4 +20,8 @@ Terakhir buat volume bernama `wordpress` yang di-attach ke dalam container dalam
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - wordpress:/var/www/html
+
+volumes:
+  wordpress:
+  db:
 </pre>
