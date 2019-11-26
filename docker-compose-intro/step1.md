@@ -14,6 +14,9 @@ nama_container:
 Pada scenario ini kita akan membuat sebuah website berisi Wordpress. Normalnya kita harus membuat 2 container, yaitu container untuk database dan untuk Wordpressnya sendiri.
 
 ## Task
+
+Buka file `docker-compose.yml` pada UI Editor yang ada pada bagian kanan.
+
 Tambahkan file konfigurasi berikut ke dalam file `docker-compose.yml` untuk mendefinisikan container yang berisi server database (MariaDB).
 
 Pada bagian `ports` kita mendefinisikan port yang diekspose, sama halnya dengan parameter `-p` ketika melakukan `docker run`.

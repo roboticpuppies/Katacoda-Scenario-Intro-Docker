@@ -34,7 +34,8 @@
     "uilayout": "editor-terminal",
     "uisettings": "dockercompose",
     "uieditorpath": "/root",
-    "hidefinish": true
+    "hidefinish": true,
+    "icon": "fa-docker"
   },
   "backend": {
     "imageid": "ubuntu"

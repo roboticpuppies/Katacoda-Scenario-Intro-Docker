@@ -37,7 +37,8 @@
   "environment": {
     "uilayout": "editor-terminal",
     "uieditorpath": "/root/Dockerfile",
-    "showdashboard": true
+    "showdashboard": true,
+    "icon": "fa-docker"
   },
   "backend": {
     "imageid": "ubuntu"

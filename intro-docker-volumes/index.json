@@ -26,7 +26,8 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "hideintro": true
+    "hideintro": true,
+    "icon": "fa-docker"
   },
   "backend": {
     "imageid": "ubuntu"
