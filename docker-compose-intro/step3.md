@@ -8,5 +8,5 @@ Pastikan bahwa sudah ada 2 container yang berjalan (Wordpress dan database) :
 
 `docker ps`{{execute}}
 
-Jika tidak ada masalah, buka URL berikut untuk mengakses website tersebut :
+Jika container tersebut sudah berjalan, maka tunggu beberapa menit lalu buka URL berikut untuk mengakses Wordpressnya :
 http://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com

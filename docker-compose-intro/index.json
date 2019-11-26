@@ -31,7 +31,10 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uisettings": "dockercompose",
+    "uieditorpath": "/root",
+    "hidefinish": true
   },
   "backend": {
     "imageid": "ubuntu"
