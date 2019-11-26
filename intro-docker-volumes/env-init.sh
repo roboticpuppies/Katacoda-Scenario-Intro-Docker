@@ -1,1 +1,1 @@
-mkdir -p /root/html/uploads
+mkdir -p /root/html/; cd html

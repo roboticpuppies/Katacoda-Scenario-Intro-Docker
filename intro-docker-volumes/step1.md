@@ -26,6 +26,7 @@ Pada bagian `Mountpoint` tertulis dimana path volume tersebut disimpan di Docker
 ```
 cp index.php <Mountpoint>
 cp upload.php <Mountpoint>
+mkdir <Mountpoint>/uploads
 ```
 
 Kemudian buka hasilnya menggunakan URL berikut :
