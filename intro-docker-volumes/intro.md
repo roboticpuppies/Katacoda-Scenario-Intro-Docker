@@ -1,0 +1,5 @@
+## Introduction
+
+Salah satu kemudahan menggunakan Docker adalah kemudahan recovery ketika terjadi suatu masalah, misalnya container terhapus atau container corrupt. Kita tinggal buat container baru kembali dan masalah bisa diatasi. Namun bagaimana jika data yang kita simpan di dalam container tersebut dinamis atau berubah-ubah? Tentunya kita akan kehilangan data jika menggunakan cara recovery diatas.
+
+Untuk mengatasi masalah tersebut maka digunakanlah Docker Volume yang akan menyimpan data-data kita didalam Docker Host dan memasangkannya ke dalam sebuah container. Konsepnya mirip dengan storage server misalnya NFS. Docker Volume berperan layaknya sebuah NFS dan melakukan mounting ke dalam container. Sehingga apabila ada container yang bermasalah, kita tinggal membuat container yang baru, lalu meng-attach Volumenya ke dalam container yang baru tanpa kehilangan data.
