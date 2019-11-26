@@ -9,7 +9,7 @@ Terakhir kita memerintahkan volume bernama `wordpress` di-attach ke dalam contai
 
 <pre class="file" data-filename="docker-compose.yml">
 
-  wp_latihan:
+  wordpress:
     image: wordpress
     ports:
       - 80:80

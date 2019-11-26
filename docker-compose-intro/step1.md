@@ -27,14 +27,14 @@ version: '3.1'
 
 services:
   db:
-    image: mariadb:10.4.10-bionic
+    image: mariadb:10.3.20-bionic
     ports:
       - 3306:3306
     environment:
-      WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: exampleuser
-      WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
+      MYSQL_DATABASE: exampledb
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepass
+      MYSQL_RANDOM_ROOT_PASSWORD: yes
     volumes:
       - db:/var/lib/mysql
 </pre>
